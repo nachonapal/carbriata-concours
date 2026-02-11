@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carbriata Concours 2026 | Edicion Dolores</title>
+    <meta
+      id="metaDescription"
+      name="description"
+      content="Carbriata Concours 2026 se realiza el sabado 7 de marzo de 2026 en el Autodromo Municipal Miguel Angel Atauri de Dolores, Buenos Aires, con mas de 200 autos iconicos y vueltas de desfile."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient-light" aria-hidden="true"></div>
+    <div class="grid-fade" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <nav class="nav-shell">
+        <a class="brand" href="#top" aria-label="Carbriata Concours">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">Carbriata Concours</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#experience" data-i18n="nav_experience">Experiencia</a></li>
+          <li><a href="#schedule" data-i18n="nav_format">Formato</a></li>
+          <li><a href="#lineup" data-i18n="nav_lineup">Coleccion</a></li>
+          <li><a href="#tickets" data-i18n="nav_tickets">Entradas</a></li>
+        </ul>
+        <div class="nav-actions">
+          <div class="lang-control">
+            <label class="lang-label" for="languageSelector" data-i18n="lang_label">Idioma</label>
+            <select
+              id="languageSelector"
+              class="lang-select"
+              aria-label="Selector de idioma"
+              data-i18n-aria-label="language_selector_aria"
+            >
+              <option value="es">ES</option>
+              <option value="en">EN</option>
+            </select>
+          </div>
+          <a class="button button-small" href="#tickets" data-i18n="nav_buy">Comprar</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-i18n="hero_eyebrow">Sabado, 7 de marzo de 2026</p>
+          <h1 data-i18n="hero_title">Carbriata Concours 2026</h1>
+          <p class="lead" data-i18n="hero_lead">
+            Un encuentro automotor de un dia en el Autodromo Municipal Miguel Angel Atauri, Dolores,
+            Buenos Aires. El concepto es claro: autos iconicos, vueltas de desfile y atmosfera pura
+            de entusiastas sin presion de carrera.
+          </p>
+
+          <div class="countdown-card" aria-live="polite">
+            <p class="countdown-title" data-i18n="countdown_title">Comienza en (hora Argentina)</p>
+            <div class="countdown-grid">
+              <div>
+                <span id="days">00</span>
+                <p data-i18n="countdown_days">Dias</p>
+              </div>
+              <div>
+                <span id="hours">00</span>
+                <p data-i18n="countdown_hours">Horas</p>
+              </div>
+              <div>
+                <span id="minutes">00</span>
+                <p data-i18n="countdown_minutes">Minutos</p>
+              </div>
+              <div>
+                <span id="seconds">00</span>
+                <p data-i18n="countdown_seconds">Segundos</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button" href="#tickets" data-i18n="hero_cta_tickets">Comprar entradas</a>
+            <a
+              class="ghost-link"
+              href="https://www.instagram.com/carbriata.concours/?hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="hero_cta_instagram"
+            >
+              Novedades en Instagram
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="visual-card">
+            <p class="visual-label" data-i18n="visual_label">Sede</p>
+            <h2 data-i18n="visual_title">Autodromo Miguel Angel Atauri</h2>
+            <p class="visual-meta" data-i18n="visual_meta">Dolores, Buenos Aires</p>
+            <svg viewBox="0 0 560 220" role="img" aria-label="Stylized car silhouette">
+              <path
+                d="M65 146h36l30-46c5-8 12-14 20-16l104-32c13-4 26-6 39-6h95c19 0 37 8 50 22l20 22h46c17 0 31 14 31 31v25h-39"
+                class="car-line"
+              />
+              <path d="M64 146h-30v-22c0-19 15-34 34-34h8" class="car-line" />
+              <circle cx="180" cy="168" r="34" class="wheel-ring" />
+              <circle cx="180" cy="168" r="14" class="wheel-core" />
+              <circle cx="420" cy="168" r="34" class="wheel-ring" />
+              <circle cx="420" cy="168" r="14" class="wheel-core" />
+              <path d="M229 92h156" class="car-line faint" />
+              <path d="M286 92l22-34h78" class="car-line faint" />
+            </svg>
+            <div class="route-chip-row">
+              <span class="route-chip" data-i18n="chip_1">200+ Autos</span>
+              <span class="route-chip" data-i18n="chip_2">700m de desfile</span>
+              <span class="route-chip" data-i18n="chip_3">Sin competencia</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section-shell panel">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="exp_eyebrow">Experiencia</p>
+          <h2 data-i18n="exp_title">Puntos destacados de esta edicion</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <h3 data-i18n="exp_card1_title">200+ autos iconicos</h3>
+            <p data-i18n="exp_card1_body">
+              La coleccion recorre leyendas de rally, clasicos historicos, deportivos, exoticos y
+              maquinas con ADN de pista en una sola exhibicion.
+            </p>
+          </article>
+          <article class="feature-card reveal">
+            <h3 data-i18n="exp_card2_title">Vueltas de desfile, no carreras</h3>
+            <p data-i18n="exp_card2_body">
+              Los autos giran en trazado de 700 metros sin cronometro, sin ranking y sin formato
+              competitivo.
+            </p>
+          </article>
+          <article class="feature-card reveal">
+            <h3 data-i18n="exp_card3_title">Food trucks y jazz en vivo</h3>
+            <p data-i18n="exp_card3_body">
+              El evento combina cultura automotriz con espacios gastronomicos y presentaciones de
+              jazz durante toda la jornada.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="schedule" class="section-shell panel schedule-panel">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="schedule_eyebrow">Formato</p>
+          <h2 data-i18n="schedule_title">Como se vive Carbriata 2026</h2>
+        </div>
+        <div class="schedule-shell reveal">
+          <div class="day-tabs" role="tablist" aria-label="Formato del evento" data-i18n-aria-label="tabs_aria_label">
+            <button class="day-tab active" role="tab" aria-selected="true" data-day="display" data-i18n="tab_display">
+              Exhibicion
+            </button>
+            <button class="day-tab" role="tab" aria-selected="false" data-day="track" data-i18n="tab_track">
+              Pista
+            </button>
+            <button class="day-tab" role="tab" aria-selected="false" data-day="lifestyle" data-i18n="tab_lifestyle">
+              Lifestyle
+            </button>
+          </div>
+
+          <div class="day-panels">
+            <ul class="schedule-list active" data-day="display">
+              <li>
+                <span>200+</span>
+                <div>
+                  <h3 data-i18n="display_item1_title">Galeria curada de autos</h3>
+                  <p data-i18n="display_item1_body">
+                    Una exhibicion de alta densidad con modelos iconicos de distintas epocas.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span>5</span>
+                <div>
+                  <h3 data-i18n="display_item2_title">Categorias de coleccion</h3>
+                  <p data-i18n="display_item2_body">
+                    Rally legends, clasicos historicos, deportivos, exoticos y maquinas de pista.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span data-i18n="display_item3_badge">Abierto</span>
+                <div>
+                  <h3 data-i18n="display_item3_title">Recorrido para publico</h3>
+                  <p data-i18n="display_item3_body">
+                    Espacios para observar detalles, comparar estilos y conversar con propietarios.
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="schedule-list" data-day="track">
+              <li>
+                <span>700m</span>
+                <div>
+                  <h3 data-i18n="track_item1_title">Vueltas de desfile</h3>
+                  <p data-i18n="track_item1_body">
+                    El circuito principal propone un recorrido de 700 metros dentro del autodromo.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span data-i18n="track_item2_badge">Sin carrera</span>
+                <div>
+                  <h3 data-i18n="track_item2_title">Formato no competitivo</h3>
+                  <p data-i18n="track_item2_body">
+                    No hay cronometraje ni tabla de resultados: el foco esta en disfrutar manejar.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span data-i18n="track_item3_badge">Duenos</span>
+                <div>
+                  <h3 data-i18n="track_item3_title">Tandas de participantes</h3>
+                  <p data-i18n="track_item3_body">
+                    Los dueños de autos participan en pista dentro de un entorno seguro y social.
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="schedule-list" data-day="lifestyle">
+              <li>
+                <span data-i18n="life_item1_badge">En vivo</span>
+                <div>
+                  <h3 data-i18n="life_item1_title">Sesiones de jazz</h3>
+                  <p data-i18n="life_item1_body">
+                    Presentaciones en vivo durante el dia para una atmosfera relajada y elegante.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span data-i18n="life_item2_badge">Comida</span>
+                <div>
+                  <h3 data-i18n="life_item2_title">Zona de food trucks</h3>
+                  <p data-i18n="life_item2_body">
+                    Oferta gastronomica integrada a paddock y sectores de espectadores.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span data-i18n="life_item3_badge">Sab 7 Mar</span>
+                <div>
+                  <h3 data-i18n="life_item3_title">Evento de un solo dia</h3>
+                  <p data-i18n="life_item3_body">
+                    La edicion 2026 esta planteada como una jornada completa en Dolores.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="lineup" class="section-shell panel lineup-panel">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="lineup_eyebrow">Coleccion</p>
+          <h2 data-i18n="lineup_title">Categorias publicadas de esta edicion</h2>
+        </div>
+
+        <div class="lineup-controls reveal">
+          <button
+            class="lineup-nav"
+            id="prevLineup"
+            aria-label="Auto anterior"
+            data-i18n-aria-label="lineup_prev_aria"
+          >
+            &#8592;
+          </button>
+          <button
+            class="lineup-nav"
+            id="nextLineup"
+            aria-label="Auto siguiente"
+            data-i18n-aria-label="lineup_next_aria"
+          >
+            &#8594;
+          </button>
+        </div>
+
+        <div class="lineup-window reveal">
+          <div class="lineup-track" id="lineupTrack">
+            <article class="lineup-card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Petter_Solberg_-_2006_Rally_Argentina.jpg/1280px-Petter_Solberg_-_2006_Rally_Argentina.jpg"
+                alt="Silver classic sports car"
+                loading="lazy"
+              />
+              <div>
+                <h3 data-i18n="lineup_card1_title">Rally legends</h3>
+                <p data-i18n="lineup_card1_body">
+                  Iconos historicos del rally con configuraciones de epoca y alto valor cultural.
+                </p>
+              </div>
+            </article>
+            <article class="lineup-card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/IKA_Torino_380_coup%C3%A9.jpg/1280px-IKA_Torino_380_coup%C3%A9.jpg"
+                alt="Red sports coupe"
+                loading="lazy"
+              />
+              <div>
+                <h3 data-i18n="lineup_card2_title">Clasicos historicos</h3>
+                <p data-i18n="lineup_card2_body">
+                  Piezas de coleccion que representan diseno, ingenieria y tradicion automotriz.
+                </p>
+              </div>
+            </article>
+            <article class="lineup-card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Pagani_Zonda_C12_%27chassis_001%27_Genf_2019_1Y7A5539.jpg/1280px-Pagani_Zonda_C12_%27chassis_001%27_Genf_2019_1Y7A5539.jpg"
+                alt="Modern black supercar"
+                loading="lazy"
+              />
+              <div>
+                <h3 data-i18n="lineup_card3_title">Deportivos y exoticos</h3>
+                <p data-i18n="lineup_card3_body">
+                  Modelos de altas prestaciones de segmentos premium y performance contemporanea.
+                </p>
+              </div>
+            </article>
+            <article class="lineup-card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Toyota_Corolla_de_Mat%C3%ADas_Rossi_%28Toyota_Gazoo_Racing%29._TC2000_2024_Fecha_2%2C_Buenos_Aires%2C_post_carrera_%283%29.jpg/1280px-Toyota_Corolla_de_Mat%C3%ADas_Rossi_%28Toyota_Gazoo_Racing%29._TC2000_2024_Fecha_2%2C_Buenos_Aires%2C_post_carrera_%283%29.jpg"
+                alt="Vintage race car"
+                loading="lazy"
+              />
+              <div>
+                <h3 data-i18n="lineup_card4_title">Maquinas de pista</h3>
+                <p data-i18n="lineup_card4_body">
+                  Autos enfocados en circuito seleccionados por su ingenieria y presencia visual.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="tickets" class="section-shell panel tickets-panel reveal">
+        <p class="eyebrow" data-i18n="tickets_eyebrow">Entradas</p>
+        <h2 data-i18n="tickets_title">Desde ARS 39.900</h2>
+        <p data-i18n="tickets_body">
+          La venta oficial esta publicada en QRTicket para el sabado 7 de marzo de 2026. Sede:
+          Autodromo Municipal Miguel Angel Atauri, Dolores, Buenos Aires.
+        </p>
+        <div class="ticket-actions">
+          <a
+            class="button"
+            href="https://qrticket.app/e/Carbriata-Concours"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="tickets_cta_buy"
+          >
+            Abrir venta oficial
+          </a>
+          <a
+            class="ghost-link"
+            href="https://www.instagram.com/carbriata.concours/?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="tickets_cta_ig"
+          >
+            Abrir Instagram
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Carbriata Concours</p>
+      <p data-i18n="footer_meta">Dolores, Buenos Aires | 7 de marzo de 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
