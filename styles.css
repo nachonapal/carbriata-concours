@@ -876,6 +876,30 @@ a {
     padding: 0.3rem 0.45rem;
   }
 
+  .countdown-card {
+    padding: 0.9rem 0.7rem 1rem;
+  }
+
+  .countdown-grid {
+    gap: 0.45rem;
+  }
+
+  .countdown-grid div {
+    padding: 0.55rem 0.3rem;
+  }
+
+  .countdown-grid span {
+    font-size: 1.2rem;
+  }
+
+  .countdown-grid p {
+    font-size: 0.58rem;
+    letter-spacing: 0.01em;
+    line-height: 1.15;
+    overflow-wrap: anywhere;
+    text-wrap: balance;
+  }
+
   .hero h1 {
     font-size: clamp(2.7rem, 15vw, 4.4rem);
     margin-top: 1.35rem;
